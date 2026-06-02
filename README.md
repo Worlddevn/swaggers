@@ -1,4 +1,6 @@
-# Blockscout Swaggers
+# .Blockscout Swaggers
+
+
 
 > This repo contains actual swagger files for blockscout microservices.
 
@@ -35,5 +37,4 @@
 ```bash
 npm run regenerate
 ```
-
 
