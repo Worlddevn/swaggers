@@ -78,7 +78,7 @@ jobs:
 
       - name: Trigger github-pages workflow
         if: ${{ steps.find-swagger-action.outputs.SWAGGER_FILE_ACTION == 'new' || steps.find-swagger-action.outputs.SWAGGER_FILE_ACTION == 'modified' }}
-        uses: actions/github-script@v4
+        uses: actions/github-script@v9
         with:
           github-token: ${{ secrets.BLOCKSCOUT_BOT_TOKEN }}
           script: |
